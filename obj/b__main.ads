@@ -35,7 +35,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#33791d7c#;
+   u00001 : constant Version_32 := 16#aa1789c0#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#fbff4c67#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -267,17 +267,17 @@ package ada_main is
    pragma Export (C, u00115, "system__exn_llfS");
    u00116 : constant Version_32 := 16#dc11d781#;
    pragma Export (C, u00116, "system__fat_fltS");
-   u00117 : constant Version_32 := 16#5052d55c#;
-   pragma Export (C, u00117, "irisB");
-   u00118 : constant Version_32 := 16#48a5bfd6#;
-   pragma Export (C, u00118, "irisS");
-   u00119 : constant Version_32 := 16#fd83e873#;
-   pragma Export (C, u00119, "system__concat_2B");
-   u00120 : constant Version_32 := 16#5d687986#;
-   pragma Export (C, u00120, "system__concat_2S");
+   u00117 : constant Version_32 := 16#66460c06#;
+   pragma Export (C, u00117, "fuzzyB");
+   u00118 : constant Version_32 := 16#c589372a#;
+   pragma Export (C, u00118, "fuzzyS");
+   u00119 : constant Version_32 := 16#66c82cef#;
+   pragma Export (C, u00119, "irisB");
+   u00120 : constant Version_32 := 16#e10d72cf#;
+   pragma Export (C, u00120, "irisS");
    u00121 : constant Version_32 := 16#b81fc5f0#;
    pragma Export (C, u00121, "iris__file_readerB");
-   u00122 : constant Version_32 := 16#2702cc9d#;
+   u00122 : constant Version_32 := 16#8eaa0184#;
    pragma Export (C, u00122, "iris__file_readerS");
    u00123 : constant Version_32 := 16#af50e98f#;
    pragma Export (C, u00123, "ada__stringsS");
@@ -375,8 +375,6 @@ package ada_main is
    --  system.address_image%s
    --  system.bit_ops%s
    --  system.bit_ops%b
-   --  system.concat_2%s
-   --  system.concat_2%b
    --  system.exception_table%s
    --  system.exception_table%b
    --  ada.io_exceptions%s
@@ -433,6 +431,8 @@ package ada_main is
    --  ada.text_io.generic_aux%s
    --  ada.text_io.generic_aux%b
    --  ada.text_io.float_aux%b
+   --  fuzzy%s
+   --  fuzzy%b
    --  iris%s
    --  iris%b
    --  iris.file_reader%s

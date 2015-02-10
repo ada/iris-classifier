@@ -1,56 +1,107 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
+  <Project>
+    <vfs_file>/Users/alexanis/git/Fuzzy-Iris/main.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/Iris.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/Iris.adb</vfs_file>
+      <vfs_file>/Users/alexanis/git/Fuzzy-Iris/main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/Iris.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 51" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 3" >
-      <vfs_file />
-    </file_marker>
-    <file_marker column=" 75" line=" 21" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/fuzzy.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/crap.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/Iris.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/Iris.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/fuzzy.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/fuzzy.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/Iris.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/iris-file_reader.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/iris-file_reader.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/Iris.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/main.adb</vfs_file>
+      <vfs_file>/Users/alexanis/git/Fuzzy-Iris/Iris.adb</vfs_file>
     </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_file>/Users/alexanis/Desktop/lab2/Iris.adb</vfs_file>
+      <vfs_file>/Users/alexanis/git/Fuzzy-Iris/Iris.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\main.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\main.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 61">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 96" line=" 22">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\fuzzy.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\fuzzy.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\Iris.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\Iris.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\Iris.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\fuzzy.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_file >C:\Users\jam12003\Desktop\Fuzzy-Iris-master\Iris.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/Iris.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/Iris.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/Iris.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 51">
+      <vfs_file >/Users/alexanis/Desktop/lab2/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 3">
+      <vfs_file  />
+    </file_marker>
+    <file_marker column=" 75" line=" 21">
+      <vfs_file >/Users/alexanis/Desktop/lab2/fuzzy.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/crap.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/Iris.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/Iris.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/fuzzy.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/fuzzy.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/Iris.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/iris-file_reader.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/iris-file_reader.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/Iris.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_file >/Users/alexanis/Desktop/lab2/Iris.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >

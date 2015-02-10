@@ -2,9 +2,32 @@ With Ada.Text_IO;
 With Ada.Float_Text_IO;
 package body Iris is
 
-   function Classify (A : in Iris) return Iris_Class is
+
+
+   function Max(A : Float_Array) return Float is
+      R : Float := 0.0;
    begin
-      return Versicolor;
+      for E of A loop
+         if E > R then
+            R := E;
+         end if;
+      end loop;
+      return R;
+   end;
+
+   function Classify (A : in Float_Array) return Iris_Class is
+      M : Float := Max (A);
+      Invalid_Expert_Functions : Exception;
+   begin
+      if A(1) = M or A(4) = M then
+            return Versicolor;
+      elsif A (2) = M then
+            return Setosa;
+      elsif A(3) = M then
+	 return Virginica;
+      else
+	 raise Invalid_Expert_Functions;
+      end if;
    end Classify;
 
    procedure Normalize (A : in out Iris_Array) is

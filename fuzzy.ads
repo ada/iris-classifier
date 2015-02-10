@@ -20,6 +20,4 @@ Package Fuzzy is
    function Membership (Value : in Float; Set : in Trapezoidal_L_Set) return Degree_Of_Membership;
    function Membership (Value : in Float; Set : in Trapezoidal_R_Set) return Degree_Of_Membership;
    function Membership (Value : in Float; Set : in Triangular_Set) return Degree_Of_Membership;
-   function Intersection (A, B : in Degree_Of_Membership) return Degree_Of_Membership;
-   function Union (A,B : in Degree_Of_Membership) return Degree_Of_Membership;
 end Fuzzy;

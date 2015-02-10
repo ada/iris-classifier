@@ -9,10 +9,11 @@ procedure Main is
    Set_Middle : Triangular_Set    := (Left => 0.0, Middle => 0.6, Right => 1.0);
    Set_Long   : Trapezoidal_L_Set := (Left => 0.6, Right  => 1.0);
    Iris_Set   : Iris_Array(1 .. 150);
+   Counter    : Integer := 0;
 begin
    File_Reader.Read_File ("iris.txt", Iris_Set);
    Normalize (Iris_Set);
-   Put(Iris_Set);
+
    for A of Iris_Set loop
       declare
 	 x1 : Float := A.Sepal.Length;
@@ -36,13 +37,16 @@ begin
 	 Middle_x4 : Degree_Of_Membership := Membership (x4, Set_Middle);
 	 Long_x4   : Degree_Of_Membership := Membership (x4, Set_Long);
 
+         r1 : Float := (Short_x1+Long_x1) * (Middle_x2+Long_x2) * (Middle_x3 + Long_x3) * Middle_x4;
+         r2 : Float := (Short_x3+Middle_x3) * Short_x4;
+         r3 : Float := (Short_x2+Middle_x2) * Long_x3 * Long_x4;
+         r4 : Float := Middle_x1 * (Short_x2 + Middle_x2) * Short_x3 * Long_x4;
       begin
-	 if x3 = Union(short_x3, middle_x3) and x4 = short_x4 then
-	    A.Guess := Setosa;
-	    Put (A);
-	 end if;
+	 if A.Class = Classify((r1,r2,r3,r4)) then
+            Counter := Counter + 1;
+         end if;
       end;
    end loop;
 
-
+   Put_Line(Counter'Img);
 end Main;

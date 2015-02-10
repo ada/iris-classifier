@@ -1,14 +1,6 @@
 package body Fuzzy is
 
-   function Intersection (A, B : in Degree_Of_Membership) return Degree_Of_Membership is
-   begin
-      if A < B then return A; else return B; end if;
-   end Intersection;
 
-   function Union (A, B : in Degree_Of_Membership) return Degree_Of_Membership is
-   begin
-      if A > B then return A; else return B; end if;
-   end Union;
 
 
    function Membership

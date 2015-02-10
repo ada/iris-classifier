@@ -29,7 +29,8 @@ package body ada_main is
    E066 : Short_Integer; pragma Import (Ada, E066, "system__file_io_E");
    E017 : Short_Integer; pragma Import (Ada, E017, "system__secondary_stack_E");
    E045 : Short_Integer; pragma Import (Ada, E045, "ada__text_io_E");
-   E118 : Short_Integer; pragma Import (Ada, E118, "iris_E");
+   E118 : Short_Integer; pragma Import (Ada, E118, "fuzzy_E");
+   E120 : Short_Integer; pragma Import (Ada, E120, "iris_E");
    E122 : Short_Integer; pragma Import (Ada, E122, "iris__file_reader_E");
 
    Local_Priority_Specific_Dispatching : constant String := "";
@@ -221,6 +222,7 @@ package body ada_main is
       Ada.Text_Io'Elab_Body;
       E045 := E045 + 1;
       E118 := E118 + 1;
+      E120 := E120 + 1;
       E122 := E122 + 1;
    end adainit;
 
@@ -257,12 +259,13 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\u0\Desktop\lab2\obj\Iris.o
-   --   C:\Users\u0\Desktop\lab2\obj\iris-file_reader.o
-   --   C:\Users\u0\Desktop\lab2\obj\main.o
-   --   -LC:\Users\u0\Desktop\lab2\obj\
-   --   -LC:\Users\u0\Desktop\lab2\obj\
-   --   -LC:/program files (x86)/gnat/2014/lib/gcc/i686-pc-mingw32/4.7.4/adalib/
+   --   C:\Users\jam12003\Desktop\Fuzzy-Iris-master\obj\fuzzy.o
+   --   C:\Users\jam12003\Desktop\Fuzzy-Iris-master\obj\Iris.o
+   --   C:\Users\jam12003\Desktop\Fuzzy-Iris-master\obj\iris-file_reader.o
+   --   C:\Users\jam12003\Desktop\Fuzzy-Iris-master\obj\main.o
+   --   -LC:\Users\jam12003\Desktop\Fuzzy-Iris-master\obj\
+   --   -LC:\Users\jam12003\Desktop\Fuzzy-Iris-master\obj\
+   --   -LC:/gnat/2014/lib/gcc/i686-pc-mingw32/4.7.4/adalib/
    --   -static
    --   -lgnat
    --   -Wl,--stack=0x2000000

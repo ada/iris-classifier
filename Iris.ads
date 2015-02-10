@@ -10,7 +10,7 @@ Package Iris is
    Max_Petal_Length : constant Float := 6.9;
    Max_Petal_Width  : constant Float := 2.5;
 
-   Type Iris_Class is (Setosa, Versicolor, Virginica, NA);
+   Type Iris_Class is (Setosa, Versicolor, Virginica);
 
    Type Etal is record
       Width : Float := 0.0;
@@ -21,14 +21,17 @@ Package Iris is
       Sepal : Etal;
       Petal : Etal;
       Class : Iris_Class;
-      Guess : Iris_Class := NA;
+      Guess : Iris_Class;
    end record;
 
    Type Iris_Array is array(Positive range<>) of Iris;
+   Type Float_Array is array (Positive range<>) of Float;
 
    procedure Put (A : in Iris);
    procedure Put (A : in Iris_Array);
    procedure Put(A : in Iris_Class);
    procedure Normalize (A : in out Iris_Array);
-   function Classify(A: in Iris) return Iris_Class;
+   function Classify (A : in Float_Array) return Iris_Class;
+   function Max(A:in Float_Array) return Float;
+
 End Iris;
