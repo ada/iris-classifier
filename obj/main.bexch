@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\u0\Desktop\lab2\main.gpr
+20150202235848
+[BOUND OBJECT FILES]
+C:\Users\u0\Desktop\lab2\obj\Iris.o
+C:\Users\u0\Desktop\lab2\obj\iris-file_reader.o
+C:\Users\u0\Desktop\lab2\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\u0\Desktop\lab2\obj\
+-LC:\Users\u0\Desktop\lab2\obj\
+-LC:/program files (x86)/gnat/2014/lib/gcc/i686-pc-mingw32/4.7.4/adalib/
+-static
+-static-libgcc
+C:/program files (x86)/gnat/2014/lib/gcc/i686-pc-mingw32/4.7.4/adalib/libgnat.a
+-Wl,--stack=0x2000000
